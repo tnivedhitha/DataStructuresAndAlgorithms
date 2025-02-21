@@ -1,0 +1,8 @@
+# Understanding Array Indexing
+In programming, the term "index" in an array does not refer to a traditional index but rather to an offset. This offset represents the distance from the beginning of the array.
+
+**First Element**: The first element of the array is located at the very start, which means there is no distance from the beginning. Consequently, the offset for the first element is 0.
+
+**Subsequent Elements**: Each subsequent element's index corresponds to its distance from the first element. For example, the second element has an offset of 1, the third element has an offset of 2, and so on.
+
+This understanding of indexing as an offset helps clarify how data is accessed within an array structure.
